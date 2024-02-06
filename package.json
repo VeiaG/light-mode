@@ -1,6 +1,6 @@
 {
   "name": "light-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple and flexible way to manage light and dark themes in web applications.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -17,8 +17,12 @@
     "url": "git+https://github.com/VeiaG/light-mode.git"
   },
   "keywords": [
+    "theme switcher",
     "theme",
-    "swicher"
+    "color","ui",
+    "light mode",
+    "color scheme", "media query",
+    "theming","dark mode" 
   ],
   "author": "VeiaG",
   "license": "ISC",
