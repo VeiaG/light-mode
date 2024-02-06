@@ -1,0 +1,34 @@
+{
+  "name": "light-mode",
+  "version": "1.0.0",
+  "description": "simple and flexible way to manage light and dark themes in web applications.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+      "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeiaG/light-mode.git"
+  },
+  "keywords": [
+    "theme",
+    "swicher"
+  ],
+  "author": "VeiaG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeiaG/light-mode/issues"
+  },
+  "homepage": "https://github.com/VeiaG/light-mode#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
